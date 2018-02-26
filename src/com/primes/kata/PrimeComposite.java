@@ -7,45 +7,46 @@ import java.io.InputStream;
 public class PrimeComposite {
     public static void main(String args[]) throws IOException{
         PrimeComposite example = new PrimeComposite();
-        example.getInput();
+        //example.getInput();
+        example.requestInput("first");
+        int first = example.processInput("first");
+
+        example.requestInput("second");
+        int second = example.processInput("second");
+
+        example.callCheckPrimes(first, second);
     }
 
-    public void getInput() throws IOException{
+    public void requestInput(String str) throws IOException{
+        System.out.println("Enter " + str + " integer: ");
+    }
 
-        byte first[] = new byte[10];
-        byte second[] = new byte[10];
-        StringBuilder firstBuilder = new StringBuilder();
-        StringBuilder secondBuilder = new StringBuilder();
-        String firstStr;
-        String secondStr;
+    public int processInput(String str) throws IOException {
 
-        System.out.println("Enter first integer: ");
-        System.in.read(first);
+        byte input[] = new byte[10];
+        StringBuilder builder = new StringBuilder();
+        String newStr;
 
-        for(int i = 0; i < first.length; i++){
-            firstBuilder.append((char) first[i]);
+        System.in.read(input);
+
+        for (int i = 0; i < input.length; i++) {
+            builder.append((char) input[i]);
         }
 
-        firstStr = firstBuilder.toString().trim();
+        newStr = builder.toString().trim();
 
         System.out.print("You entered: ");
-        System.out.println(firstStr);
+        System.out.println(newStr);
 
-        System.out.println("Enter second integer: ");
-        System.in.read(second);
+        return Integer.parseInt(newStr);
 
-        for(int i = 0; i < first.length; i++){
-            secondBuilder.append((char) second[i]);
-        }
+    }
 
-        secondStr = secondBuilder.toString().trim();
+    public void callCheckPrimes(int first, int second){
 
-        System.out.print("You entered: ");
-        System.out.println(secondStr);
+        System.out.println("Checking for primes and composites between " + first + " and " + second);
 
-        System.out.println("Checking for primes and composites between " + firstStr + " and " + secondStr);
-
-        String result = checkPrimes(Integer.parseInt(firstStr), Integer.parseInt(secondStr));
+        String result = checkPrimes(first, second);
 
         System.out.println(result);
     }

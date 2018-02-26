@@ -1,27 +1,39 @@
 package com.primes.kata;
 
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class PrimeCompositeTest {
 
-//    @Test
-////    public void testGetInput() throws IOException {
-////        PrimeComposite testExample = new PrimeComposite();
-////
-////        byte[] data = "0,1".getBytes();
-////
-////        InputStream input = new ByteArrayInputStream(data);
-////
-////        String output = testExample.getInput();
-////        assertEquals("0,1", output);
-////    }
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+
+    @Before
+    public void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
+    }
+
+    @After
+    public void restoreStreams() {
+        System.setOut(System.out);
+    }
+
+    @Test
+    public void testGetInput() throws IOException {
+        PrimeComposite testExample = new PrimeComposite();
+
+        byte[] data = "0,1".getBytes();
+
+        InputStream input = new ByteArrayInputStream(data);
+
+        //String output = testExample.getInput();
+        //assertEquals("0,1", output);
+    }
 
     @Test
     public void testForCheckPrimes1() {
