@@ -7,19 +7,19 @@ public class PrimeComposite {
         PrimeComposite example = new PrimeComposite();
 
         example.requestInput("first");
-        int first = example.processInput("first");
+        int first = example.processInput();
 
         example.requestInput("second");
-        int second = example.processInput("second");
+        int second = example.processInput();
 
         example.callCheckPrimes(first, second);
     }
 
-    public void requestInput(String str) throws IOException{
+    public void requestInput(String str) {
         System.out.println("Enter " + str + " integer: ");
     }
 
-    public int processInput(String str) throws IOException {
+    public int processInput() throws IOException {
 
         byte input[] = new byte[10];
         StringBuilder builder = new StringBuilder();

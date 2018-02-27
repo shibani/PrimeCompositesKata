@@ -32,7 +32,7 @@ public class PrimeCompositeTest {
         InputStream input = new ByteArrayInputStream(data);
         System.setIn(input);
 
-        int testResult = testExample.processInput("first");
+        int testResult = testExample.processInput();
 
         assertEquals(23, testResult);
     }
