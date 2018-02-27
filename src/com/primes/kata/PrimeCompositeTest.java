@@ -1,7 +1,5 @@
 package com.primes.kata;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
@@ -11,23 +9,19 @@ import static junit.framework.TestCase.assertTrue;
 
 public class PrimeCompositeTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(System.out);
-    }
-
     @Test
     public void testRequestInput() throws IOException {
         PrimeComposite testExample = new PrimeComposite();
+
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(bo));
+
         testExample.requestInput("first");
-        assertTrue(outContent.toString().contains("Enter first integer: "));
+
+        bo.flush();
+        String inputLines = new String(bo.toByteArray());
+
+        assertTrue(inputLines.toString().contains("Enter first integer: "));
     }
 
     @Test
