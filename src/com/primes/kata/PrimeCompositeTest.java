@@ -1,13 +1,13 @@
 package com.primes.kata;
 
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
 
 import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertTrue;
 
 public class PrimeCompositeTest {
 
@@ -24,15 +24,40 @@ public class PrimeCompositeTest {
     }
 
     @Test
-    public void testGetInput() throws IOException {
+    public void testRequestInput() throws IOException {
+        PrimeComposite testExample = new PrimeComposite();
+        testExample.requestInput("first");
+        assertTrue(outContent.toString().contains("Enter first integer: "));
+    }
+
+    @Test
+    public void testProcessInput() throws IOException {
         PrimeComposite testExample = new PrimeComposite();
 
-        byte[] data = "0,1".getBytes();
-
+        byte[] data = "23".getBytes();
         InputStream input = new ByteArrayInputStream(data);
+        System.setIn(input);
 
-        //String output = testExample.getInput();
-        //assertEquals("0,1", output);
+        int testResult = testExample.processInput("first");
+
+        assertEquals(23, testResult);
+    }
+
+    @Test
+    public void testCallCheckPrimes() throws IOException {
+        PrimeComposite testExample = new PrimeComposite();
+
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(bo));
+
+        testExample.callCheckPrimes(23,30);
+
+        bo.flush();
+
+        String inputLines = new String(bo.toByteArray());
+
+        assertTrue(inputLines.contains("Checking for primes and composites between 23 and 30"));
+        assertTrue(inputLines.contains("prime, 24, composite, 26, composite, 28, prime, 30"));
     }
 
     @Test

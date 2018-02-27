@@ -1,13 +1,11 @@
 package com.primes.kata;
 
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
 public class PrimeComposite {
     public static void main(String args[]) throws IOException{
         PrimeComposite example = new PrimeComposite();
-        //example.getInput();
+
         example.requestInput("first");
         int first = example.processInput("first");
 

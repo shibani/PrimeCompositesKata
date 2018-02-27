@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b55e3dd8-74b9-45e7-a6e4-a42d210e8a20" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimeComposites/com/primes/kata/PrimeComposite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimeComposites/com/primes/kata/PrimeCompositeTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrimeComposites/com/primes/kata/PrimeCompositeTest.class" afterPath="$PROJECT_DIR$/out/production/PrimeComposites/com/primes/kata/PrimeCompositeTest.class" />
       <change beforePath="$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java" afterPath="$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java" />
       <change beforePath="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" afterPath="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" />
     </list>
@@ -16,16 +15,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="PrimeComposite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="660">
+              <caret line="44" column="99" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,14 +37,14 @@
       <file leaf-file-name="PrimeCompositeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="780">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,10 +71,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" />
         <option value="$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java" />
+        <option value="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="31" />
@@ -112,6 +122,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kata" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PrimeComposites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="PrimeComposites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,6 +144,7 @@
   <component name="PropertiesComponent">
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -212,7 +232,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PrimeCompositeTest.testCheckPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeCompositeTest.testCallCheckPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.primes.kata.*" />
@@ -224,7 +244,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.primes.kata" />
       <option name="MAIN_CLASS_NAME" value="com.primes.kata.PrimeCompositeTest" />
-      <option name="METHOD_NAME" value="testCheckPrimes" />
+      <option name="METHOD_NAME" value="testCallCheckPrimes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -237,7 +257,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PrimeCompositeTest.testForCheckPrimes1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeCompositeTest.testProcessInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.primes.kata.*" />
@@ -249,7 +269,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.primes.kata" />
       <option name="MAIN_CLASS_NAME" value="com.primes.kata.PrimeCompositeTest" />
-      <option name="METHOD_NAME" value="testForCheckPrimes1" />
+      <option name="METHOD_NAME" value="testProcessInput" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -262,7 +282,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PrimeCompositeTest.testForCheckPrimes11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeCompositeTest.testRequestInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.primes.kata.*" />
@@ -274,7 +294,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.primes.kata" />
       <option name="MAIN_CLASS_NAME" value="com.primes.kata.PrimeCompositeTest" />
-      <option name="METHOD_NAME" value="testForCheckPrimes11" />
+      <option name="METHOD_NAME" value="testRequestInput" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,19 +368,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PrimeComposite" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testCheckPrimes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testForCheckPrimes1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testForCheckPrimes11" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testRequestInput" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testProcessInput" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testCallCheckPrimes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrimeComposite" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.PrimeComposite" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testForCheckPrimes1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testForCheckPrimes11" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testCheckPrimes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testCallCheckPrimes" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testRequestInput" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testProcessInput" />
       </list>
     </recent_temporary>
   </component>
@@ -381,17 +401,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeCompositeTest - 2018.02.26 at 17h 36m 27s.xml">
+    <history-entry file="PrimeCompositeTest - 2018.02.26 at 22h 34m 26s.xml">
       <configuration name="PrimeCompositeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeCompositeTest_testGetInput - 2018.02.26 at 14h 48m 23s.xml">
-      <configuration name="PrimeCompositeTest.testGetInput" configurationId="JUnit" />
+    <history-entry file="PrimeCompositeTest - 2018.02.26 at 22h 35m 16s.xml">
+      <configuration name="PrimeCompositeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeCompositeTest_testGetInput - 2018.02.26 at 15h 01m 17s.xml">
-      <configuration name="PrimeCompositeTest.testGetInput" configurationId="JUnit" />
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 24m 37s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeCompositeTest_testGetInput - 2018.02.26 at 15h 19m 07s.xml">
-      <configuration name="PrimeCompositeTest.testGetInput" configurationId="JUnit" />
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 25m 00s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 26m 05s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 27m 57s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 32m 18s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 32m 50s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 33m 01s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testCallCheckPrimes - 2018.02.26 at 22h 34m 14s.xml">
+      <configuration name="PrimeCompositeTest.testCallCheckPrimes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -400,15 +438,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.4879154" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.48187312" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5120846" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5060423" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49697885" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49093655" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -435,28 +473,38 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PrimeComposites.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="780">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="44" column="99" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
