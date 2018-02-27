@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55e3dd8-74b9-45e7-a6e4-a42d210e8a20" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java" afterPath="$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java" />
       <change beforePath="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" afterPath="$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java" />
     </list>
@@ -23,24 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrimeComposite.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeComposite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="155">
+              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeCompositeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrimeCompositeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimeComposite">
+  <component name="RunManager" selected="JUnit.PrimeCompositeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -374,10 +370,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrimeComposite" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testRequestInput" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testProcessInput" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testProcessInput" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testRequestInput" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrimeComposite" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PrimeCompositeTest.testCallCheckPrimes" />
       </list>
     </recent_temporary>
@@ -399,14 +395,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeCompositeTest - 2018.02.27 at 09h 05m 07s.xml">
+    <history-entry file="PrimeCompositeTest - 2018.02.27 at 12h 44m 51s.xml">
       <configuration name="PrimeCompositeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeCompositeTest_testRequestInput - 2018.02.27 at 09h 07m 47s.xml">
-      <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeCompositeTest_testRequestInput - 2018.02.27 at 09h 07m 59s.xml">
-      <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
+    <history-entry file="PrimeCompositeTest_testProcessInput - 2018.02.27 at 13h 40m 07s.xml">
+      <configuration name="PrimeCompositeTest.testProcessInput" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeCompositeTest_testRequestInput - 2018.02.27 at 09h 09m 35s.xml">
       <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
@@ -427,6 +420,9 @@
       <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeCompositeTest_testRequestInput - 2018.02.27 at 12h 43m 13s.xml">
+      <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeCompositeTest_testRequestInput - 2018.02.27 at 13h 40m 04s.xml">
       <configuration name="PrimeCompositeTest.testRequestInput" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -508,10 +504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -530,23 +523,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeComposite.java">
+    <entry file="file://$PROJECT_DIR$/src/com/primes/kata/PrimeCompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

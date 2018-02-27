@@ -15,7 +15,7 @@ public class PrimeComposite {
         example.callCheckPrimes(first, second);
     }
 
-    public void requestInput(String str) {
+    public void requestInput(String str) throws IOException {
         System.out.println("Enter " + str + " integer: ");
     }
 

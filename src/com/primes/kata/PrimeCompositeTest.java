@@ -19,6 +19,7 @@ public class PrimeCompositeTest {
         testExample.requestInput("first");
 
         bo.flush();
+
         String inputLines = new String(bo.toByteArray());
 
         assertTrue(inputLines.toString().contains("Enter first integer: "));
